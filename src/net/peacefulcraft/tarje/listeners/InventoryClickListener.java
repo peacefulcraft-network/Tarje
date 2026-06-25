@@ -41,7 +41,7 @@ public class InventoryClickListener implements Listener {
       ev.setCancelled(true);
       if (requstedShop == null) {
         Tarje._this().logSevere("Index shop is out of sync with registered shops! User requested shop " + clickedItemName + " from index, but that shop is either not enabled or not configured.");
-        ((Player) ev.getView().getPlayer()).sendMessage(Tarje.messagingPrefix + "Sorry, this shop is misconfigured and can not be opened.");
+        ((Player) ev.getView().getPlayer()).sendMessage(Tarje.messagingPrefix + " Sorry, this shop is misconfigured and can not be opened.");
       } else {
         Player player = (Player) ev.getView().getPlayer();
         quietNextClose(player);
