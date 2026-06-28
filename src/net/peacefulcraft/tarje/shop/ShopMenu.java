@@ -70,7 +70,7 @@ public class ShopMenu {
       lore.add("Buy: $" + item.getBuyPrice());
       Tarje._this().putPurchasableItemIntoIndex(item.getItem(), item.getBuyPrice());
     } else {
-      lore.add("Item can not bought");
+      lore.add("Item can not be bought");
     }
 
     if (item.isSellable()) {

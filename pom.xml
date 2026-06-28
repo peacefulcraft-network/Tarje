@@ -2,10 +2,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>peacefulcraft.net</groupId>
   <artifactId>Tarje</artifactId>
-  <version>0.0.4</version>
+  <version>0.1.0</version>
   <description>Off-brand, generic, and totally not copyright infringing Super Target for Minecraft.</description>
   <properties>
     <maven.compiler.release>21</maven.compiler.release>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
 	<spigot.version>26.1.2-R0.1-SNAPSHOT</spigot.version>
   </properties>
   <build>
